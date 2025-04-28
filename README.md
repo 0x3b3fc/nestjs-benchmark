@@ -17,31 +17,18 @@ A modern NestJS application with a modular architecture, validation, error handl
 npm install
 ```
 
-## Running the app
-
+# To run project:
 ```bash
-# development
 npm run start
+ ```
+- this command will start the express, fastify servers and run the benchmark
 
-# watch mode
-npm run start:dev
+### endpoints to test
+* ```/ping``` - Basic JSON response
+* ```/large``` - Large JSON payload (10,000 items)
+* ```/stream``` - Streaming file contents with JSON transformation
+* ```/large-stream``` - Memory-efficient streaming of large JSON payload
 
-# production mode
-npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-npm run test
-
-# e2e tests
-npm run test:e2e
-
-# test coverage
-npm run test:cov
-```
 
 ## API Documentation
 
