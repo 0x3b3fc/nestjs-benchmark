@@ -1,0 +1,18 @@
+{
+  "name": "node-framework-benchmark",
+  "version": "1.0.0",
+  "description": "Performance benchmark comparing Express and Fastify",
+  "scripts": {
+    "start:express": "node src/express-server.js",
+    "start:fastify": "node src/fastify-server.js",
+    "benchmark": "node src/benchmark.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fastify": "^4.24.3",
+    "autocannon": "^7.12.0",
+    "cli-table3": "^0.6.3",
+    "pino": "^8.16.1",
+    "stream-json": "^1.8.0"
+  }
+}
