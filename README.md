@@ -1,15 +1,3 @@
-# NestJS Application
-
-A modern NestJS application with a modular architecture, validation, error handling, and Swagger documentation.
-
-## Features
-
-- RESTful API endpoints with proper request validation
-- Modular architecture using NestJS decorators and dependency injection
-- Authentication and authorization system (setup ready)
-- Request logging and error handling middleware
-- Environment-based configuration
-- Swagger API documentation
 
 ## Installation
 
